@@ -38,10 +38,3 @@ def initandfuel_weight():
     We = 10**((math.log10(W0)-A)/B) #empty weight
 
     return We , Wf
-
-We, Wf = initandfuel_weight()
-print(We)
-print(Wf)
-
-
-
